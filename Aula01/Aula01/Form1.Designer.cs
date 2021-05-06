@@ -29,13 +29,44 @@ namespace Aula01
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btCakcular = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btCakcular
+            // 
+            this.btCakcular.Location = new System.Drawing.Point(257, 270);
+            this.btCakcular.Name = "btCakcular";
+            this.btCakcular.Size = new System.Drawing.Size(271, 113);
+            this.btCakcular.TabIndex = 0;
+            this.btCakcular.Text = "Calcular";
+            this.btCakcular.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(258, 200);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(270, 23);
+            this.textBox1.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btCakcular);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btCakcular;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
