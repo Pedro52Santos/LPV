@@ -1,0 +1,3 @@
+﻿1>------ Compilação iniciada: Projeto: Utilitarias, Configuração: Debug Any CPU ------
+1>  Utilitarias -> C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\bin\Debug\Utilitarias.dll
+========== Compilar: 1 com êxito, 0 com falha, 0 atualizados, 0 ignorados ==========

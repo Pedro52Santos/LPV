@@ -1,0 +1,6 @@
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\bin\Debug\Utilitarias.dll
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\bin\Debug\Utilitarias.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\obj\Debug\Utilitarias.csprojAssemblyReference.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\obj\Debug\Utilitarias.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\obj\Debug\Utilitarias.dll
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Utilitarias\Utilitarias\obj\Debug\Utilitarias.pdb
