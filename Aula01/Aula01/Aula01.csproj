@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Utilitarias">
+      <HintPath>..\..\Utilitarias\Utilitarias\bin\Debug\Utilitarias.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

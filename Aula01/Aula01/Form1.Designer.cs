@@ -29,33 +29,37 @@ namespace Aula01
         /// </summary>
         private void InitializeComponent()
         {
-            this.btCakcular = new System.Windows.Forms.Button();
+            this.btCalcular = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btCakcular
+            // btCalcular
             // 
-            this.btCakcular.Location = new System.Drawing.Point(257, 270);
-            this.btCakcular.Name = "btCakcular";
-            this.btCakcular.Size = new System.Drawing.Size(271, 113);
-            this.btCakcular.TabIndex = 0;
-            this.btCakcular.Text = "Calcular";
-            this.btCakcular.UseVisualStyleBackColor = true;
+            this.btCalcular.Location = new System.Drawing.Point(272, 313);
+            this.btCalcular.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btCalcular.Name = "btCalcular";
+            this.btCalcular.Size = new System.Drawing.Size(310, 151);
+            this.btCalcular.TabIndex = 0;
+            this.btCalcular.Text = "Calcular";
+            this.btCalcular.UseVisualStyleBackColor = true;
+            this.btCalcular.Click += new System.EventHandler(this.btCakcular_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(258, 200);
+            this.textBox1.Location = new System.Drawing.Point(272, 205);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(270, 23);
+            this.textBox1.Size = new System.Drawing.Size(308, 27);
             this.textBox1.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(902, 600);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.btCakcular);
+            this.Controls.Add(this.btCalcular);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -65,7 +69,7 @@ namespace Aula01
 
         #endregion
 
-        private System.Windows.Forms.Button btCakcular;
+        private System.Windows.Forms.Button btCalcular;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
