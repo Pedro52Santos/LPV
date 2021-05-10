@@ -1,0 +1,16 @@
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.csprojAssemblyReference.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.Form1.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.Formularios.FormSoma.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.csproj.GenerateResource.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.exe
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.deps.json
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.runtimeconfig.dev.json
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.dll
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\bin\Debug\netcoreapp3.1\Aula02.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.dll
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula02\Aula02\obj\Debug\netcoreapp3.1\Aula02.genruntimeconfig.cache

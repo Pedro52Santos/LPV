@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Aula02.Formularios;
 
 namespace Aula02
 {
@@ -17,5 +18,10 @@ namespace Aula02
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormSoma frm = new FormSoma();
+            frm.ShowDialog();
+        }
     }
 }
