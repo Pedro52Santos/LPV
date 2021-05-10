@@ -23,8 +23,13 @@ namespace Aula02.Formularios
 
         private void btCalcular_Click(object sender, EventArgs e)
         {
-                
+            double Valor1;
+            double Valor2;
+            double Resultado;
 
+            Valor1 = Convert.ToDouble(ValorA.Text);
+            Valor2 = Convert.ToDouble(ValorB.Text);
+            Resultado = Valor1 + Valor2;
         }
     }
 }

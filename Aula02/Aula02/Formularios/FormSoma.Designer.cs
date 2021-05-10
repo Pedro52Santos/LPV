@@ -43,9 +43,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(281, 28);
+            this.label1.Location = new System.Drawing.Point(246, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 38);
+            this.label1.Size = new System.Drawing.Size(157, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Realizar Soma";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -53,58 +53,62 @@
             // ValorA
             // 
             this.ValorA.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ValorA.Location = new System.Drawing.Point(312, 111);
+            this.ValorA.Location = new System.Drawing.Point(273, 83);
+            this.ValorA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ValorA.Name = "ValorA";
-            this.ValorA.Size = new System.Drawing.Size(125, 38);
+            this.ValorA.Size = new System.Drawing.Size(110, 32);
             this.ValorA.TabIndex = 1;
             // 
             // ValorB
             // 
             this.ValorB.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ValorB.Location = new System.Drawing.Point(312, 179);
+            this.ValorB.Location = new System.Drawing.Point(273, 134);
+            this.ValorB.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ValorB.Name = "ValorB";
-            this.ValorB.Size = new System.Drawing.Size(125, 38);
+            this.ValorB.Size = new System.Drawing.Size(110, 32);
             this.ValorB.TabIndex = 2;
             // 
             // Resultado
             // 
-            this.Resultado.Location = new System.Drawing.Point(312, 269);
+            this.Resultado.Location = new System.Drawing.Point(273, 202);
+            this.Resultado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Resultado.Name = "Resultado";
-            this.Resultado.Size = new System.Drawing.Size(125, 27);
+            this.Resultado.Size = new System.Drawing.Size(110, 23);
             this.Resultado.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(312, 88);
+            this.label2.Location = new System.Drawing.Point(273, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(45, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Valor 1:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(312, 156);
+            this.label3.Location = new System.Drawing.Point(273, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 20);
+            this.label3.Size = new System.Drawing.Size(45, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Valor 2:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(312, 246);
+            this.label4.Location = new System.Drawing.Point(273, 184);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.Size = new System.Drawing.Size(62, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "Resultado:";
             // 
             // btCalcular
             // 
-            this.btCalcular.Location = new System.Drawing.Point(312, 319);
+            this.btCalcular.Location = new System.Drawing.Point(273, 239);
+            this.btCalcular.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btCalcular.Name = "btCalcular";
-            this.btCalcular.Size = new System.Drawing.Size(125, 29);
+            this.btCalcular.Size = new System.Drawing.Size(109, 22);
             this.btCalcular.TabIndex = 7;
             this.btCalcular.Text = "Calcular";
             this.btCalcular.UseVisualStyleBackColor = true;
@@ -112,18 +116,19 @@
             // 
             // btLimpar
             // 
-            this.btLimpar.Location = new System.Drawing.Point(312, 375);
+            this.btLimpar.Location = new System.Drawing.Point(273, 281);
+            this.btLimpar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btLimpar.Name = "btLimpar";
-            this.btLimpar.Size = new System.Drawing.Size(125, 29);
+            this.btLimpar.Size = new System.Drawing.Size(109, 22);
             this.btLimpar.TabIndex = 8;
             this.btLimpar.Text = "Limpar";
             this.btLimpar.UseVisualStyleBackColor = true;
             // 
             // FormSoma
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 450);
+            this.ClientSize = new System.Drawing.Size(727, 338);
             this.Controls.Add(this.btLimpar);
             this.Controls.Add(this.btCalcular);
             this.Controls.Add(this.label4);
@@ -133,6 +138,7 @@
             this.Controls.Add(this.ValorB);
             this.Controls.Add(this.ValorA);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormSoma";
             this.Text = "Formulário para somar dois Valores";
             this.ResumeLayout(false);
