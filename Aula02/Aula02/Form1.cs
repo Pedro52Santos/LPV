@@ -23,5 +23,23 @@ namespace Aula02
             FormSoma frm = new FormSoma();
             frm.ShowDialog();
         }
+
+        private void btSubtrair_Click(object sender, EventArgs e)
+        {
+            FormSubtracao frmS = new FormSubtracao();
+            frmS.ShowDialog();
+        }
+
+        private void btMultiplica_Click(object sender, EventArgs e)
+        {
+            FormMultiplicacao FmrM = new FormMultiplicacao();
+            FmrM.ShowDialog();
+        }
+
+        private void btDividir_Click(object sender, EventArgs e)
+        {
+            FormDivisao frmD = new FormDivisao();
+            frmD.ShowDialog();
+        }
     }
 }

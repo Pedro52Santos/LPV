@@ -8,18 +8,12 @@ using System.Windows.Forms;
 
 namespace Aula02.Formularios
 {
-    public partial class FormSoma : Form
+    public partial class FormSubtracao : Form
     {
-        public FormSoma()
+        public FormSubtracao()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-        public double Rresultado;
 
         private void btCalcular_Click(object sender, EventArgs e)
         {
@@ -29,8 +23,8 @@ namespace Aula02.Formularios
 
             Valor1 = Convert.ToDouble(ValorA.Text);
             Valor2 = Convert.ToDouble(ValorB.Text);
-            Resultado = Valor1 + Valor2;
-            EdResultado.Text = Convert.ToString(Resultado); 
+            Resultado = Valor1 - Valor2;
+            EdResultado.Text = Convert.ToString(Resultado);
         }
 
         private void btLimpar_Click(object sender, EventArgs e)

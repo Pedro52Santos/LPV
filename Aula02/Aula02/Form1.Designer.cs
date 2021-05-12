@@ -37,10 +37,9 @@ namespace Aula02
             // 
             // btSoma
             // 
-            this.btSoma.Location = new System.Drawing.Point(296, 232);
-            this.btSoma.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btSoma.Location = new System.Drawing.Point(259, 174);
             this.btSoma.Name = "btSoma";
-            this.btSoma.Size = new System.Drawing.Size(125, 31);
+            this.btSoma.Size = new System.Drawing.Size(109, 23);
             this.btSoma.TabIndex = 0;
             this.btSoma.Text = "SOMA";
             this.btSoma.UseVisualStyleBackColor = true;
@@ -48,44 +47,43 @@ namespace Aula02
             // 
             // btSubtrair
             // 
-            this.btSubtrair.Location = new System.Drawing.Point(466, 232);
-            this.btSubtrair.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btSubtrair.Location = new System.Drawing.Point(408, 174);
             this.btSubtrair.Name = "btSubtrair";
-            this.btSubtrair.Size = new System.Drawing.Size(125, 31);
+            this.btSubtrair.Size = new System.Drawing.Size(109, 23);
             this.btSubtrair.TabIndex = 1;
             this.btSubtrair.Text = "SUBTRAÇÃO";
             this.btSubtrair.UseVisualStyleBackColor = true;
+            this.btSubtrair.Click += new System.EventHandler(this.btSubtrair_Click);
             // 
             // btMultiplica
             // 
-            this.btMultiplica.Location = new System.Drawing.Point(296, 321);
-            this.btMultiplica.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btMultiplica.Location = new System.Drawing.Point(259, 241);
             this.btMultiplica.Name = "btMultiplica";
-            this.btMultiplica.Size = new System.Drawing.Size(125, 31);
+            this.btMultiplica.Size = new System.Drawing.Size(109, 23);
             this.btMultiplica.TabIndex = 2;
             this.btMultiplica.Text = "MULTIPLICAÇÃO";
             this.btMultiplica.UseVisualStyleBackColor = true;
+            this.btMultiplica.Click += new System.EventHandler(this.btMultiplica_Click);
             // 
             // btDividir
             // 
-            this.btDividir.Location = new System.Drawing.Point(466, 321);
-            this.btDividir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btDividir.Location = new System.Drawing.Point(408, 241);
             this.btDividir.Name = "btDividir";
-            this.btDividir.Size = new System.Drawing.Size(125, 31);
+            this.btDividir.Size = new System.Drawing.Size(109, 23);
             this.btDividir.TabIndex = 3;
             this.btDividir.Text = "DIVISÃO";
             this.btDividir.UseVisualStyleBackColor = true;
+            this.btDividir.Click += new System.EventHandler(this.btDividir_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 600);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btDividir);
             this.Controls.Add(this.btMultiplica);
             this.Controls.Add(this.btSubtrair);
             this.Controls.Add(this.btSoma);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

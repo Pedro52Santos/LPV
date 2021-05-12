@@ -5,12 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Utilitarias;
 
 namespace Aula02.Formularios
 {
-    public partial class FormSoma : Form
+    public partial class FormDivisao : Form
     {
-        public FormSoma()
+        public FormDivisao()
         {
             InitializeComponent();
         }
@@ -19,7 +20,6 @@ namespace Aula02.Formularios
         {
 
         }
-        public double Rresultado;
 
         private void btCalcular_Click(object sender, EventArgs e)
         {
@@ -29,8 +29,15 @@ namespace Aula02.Formularios
 
             Valor1 = Convert.ToDouble(ValorA.Text);
             Valor2 = Convert.ToDouble(ValorB.Text);
-            Resultado = Valor1 + Valor2;
-            EdResultado.Text = Convert.ToString(Resultado); 
+            if(Valor2 <= 0)
+            {
+                Mensagens msg = new Mensagens("ERRO!!");
+                msg.MsgErro("Não é possível dividir por zero");
+            }else
+            {
+                Resultado = Valor1 / Valor2;
+                EdResultado.Text = Convert.ToString(Resultado);
+            }
         }
 
         private void btLimpar_Click(object sender, EventArgs e)

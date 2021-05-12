@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.ValorA = new System.Windows.Forms.TextBox();
             this.ValorB = new System.Windows.Forms.TextBox();
-            this.Resultado = new System.Windows.Forms.TextBox();
+            this.EdResultado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -68,13 +68,13 @@
             this.ValorB.Size = new System.Drawing.Size(110, 32);
             this.ValorB.TabIndex = 2;
             // 
-            // Resultado
+            // EdResultado
             // 
-            this.Resultado.Location = new System.Drawing.Point(273, 202);
-            this.Resultado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Resultado.Name = "Resultado";
-            this.Resultado.Size = new System.Drawing.Size(110, 23);
-            this.Resultado.TabIndex = 3;
+            this.EdResultado.Location = new System.Drawing.Point(273, 202);
+            this.EdResultado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EdResultado.Name = "EdResultado";
+            this.EdResultado.Size = new System.Drawing.Size(110, 23);
+            this.EdResultado.TabIndex = 3;
             // 
             // label2
             // 
@@ -123,6 +123,7 @@
             this.btLimpar.TabIndex = 8;
             this.btLimpar.Text = "Limpar";
             this.btLimpar.UseVisualStyleBackColor = true;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
             // 
             // FormSoma
             // 
@@ -134,7 +135,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Resultado);
+            this.Controls.Add(this.EdResultado);
             this.Controls.Add(this.ValorB);
             this.Controls.Add(this.ValorA);
             this.Controls.Add(this.label1);
@@ -151,7 +152,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox ValorA;
         private System.Windows.Forms.TextBox ValorB;
-        private System.Windows.Forms.TextBox Resultado;
+        private System.Windows.Forms.TextBox EdResultado;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
