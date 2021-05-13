@@ -1,0 +1,9 @@
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\bin\Debug\netcoreapp3.1\MinhasValidacoes.deps.json
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\bin\Debug\netcoreapp3.1\MinhasValidacoes.dll
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\bin\Debug\netcoreapp3.1\MinhasValidacoes.pdb
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.csprojAssemblyReference.cache
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.AssemblyInfoInputs.cache
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.AssemblyInfo.cs
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.csproj.CoreCompileInputs.cache
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.dll
+C:\Users\500469\Documents\GitHub\LPV\Utilitarias\MinhasValidacoes\MinhasValidacoes\obj\Debug\netcoreapp3.1\MinhasValidacoes.pdb
