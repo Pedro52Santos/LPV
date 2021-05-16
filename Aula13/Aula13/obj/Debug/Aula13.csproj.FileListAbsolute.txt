@@ -1,0 +1,16 @@
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\bin\Debug\Aula13.exe.config
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\bin\Debug\Aula13.exe
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\bin\Debug\Aula13.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.csprojAssemblyReference.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.Formularios.FormListar.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.Properties.Resources.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.csproj.GenerateResource.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.exe
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\bin\Debug\Utilitarias.dll
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\bin\Debug\Utilitarias.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.Form1.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.Formularios.FormCadastrar.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.Formularios.FormConsultar.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\Aula13\Aula13\obj\Debug\Aula13.csproj.CopyComplete
