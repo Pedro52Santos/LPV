@@ -1,0 +1,10 @@
+2021-05-18 09:29:28.855 ADT [10356] LOG:  starting PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2021-05-18 09:29:28.858 ADT [10356] LOG:  listening on IPv6 address "::", port 5432
+2021-05-18 09:29:28.863 ADT [10356] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-05-18 09:29:29.083 ADT [15280] LOG:  database system was shut down at 2021-05-18 09:29:19 ADT
+2021-05-18 09:29:29.191 ADT [10356] LOG:  database system is ready to accept connections
+2021-05-18 09:46:58.970 ADT [10356] LOG:  received fast shutdown request
+2021-05-18 09:46:58.984 ADT [10356] LOG:  aborting any active transactions
+2021-05-18 09:46:58.991 ADT [10356] LOG:  background worker "logical replication launcher" (PID 16308) exited with exit code 1
+2021-05-18 09:46:59.014 ADT [7768] LOG:  shutting down
+2021-05-18 09:46:59.086 ADT [10356] LOG:  database system is shut down

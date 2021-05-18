@@ -1,0 +1,26 @@
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.exe.config
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.exe
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.pdb
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csprojAssemblyReference.cache
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Form1.resources
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormCadastrar.resources
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormConsultar.resources
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormListar.resources
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Properties.Resources.resources
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csproj.GenerateResource.cache
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csproj.CoreCompileInputs.cache
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.exe
+C:\Users\rreei\source\repos\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.pdb
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.exe.config
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.exe
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\bin\Debug\ProjetoRegistroDePessoas.pdb
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csprojAssemblyReference.cache
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Form1.resources
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormCadastrar.resources
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormConsultar.resources
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Formularios.FormListar.resources
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.Properties.Resources.resources
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csproj.GenerateResource.cache
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.csproj.CoreCompileInputs.cache
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.exe
+C:\Users\rreei\Documents\AULAS MODULAR\Linguagem de programação Visual\Projetos\Nova pasta\ProjetoRegistroDePessoas\ProjetoRegistroDePessoas\obj\Debug\ProjetoRegistroDePessoas.pdb
