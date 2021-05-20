@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Debug\ProjetoCarros.exe.config
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Debug\ProjetoCarros.exe
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Debug\ProjetoCarros.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.csprojAssemblyReference.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Form1.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormCadastrar.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Properties.Resources.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.csproj.GenerateResource.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.exe
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.pdb
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormConsultar.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormListarGeral.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormListarSimples.resources
