@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoCarros.Context;
 
 namespace ProjetoCarros.Formularios
 {
@@ -15,6 +16,9 @@ namespace ProjetoCarros.Formularios
         public FormListarGeral()
         {
             InitializeComponent();
+            ConexaoContext ctx = new ConexaoContext();
+            bindingSource1.DataSource = ctx.ListaPessonalizadaVeiculo();
+            gridGeral.DataSource = bindingSource1.DataSource;
         }
     }
 }
