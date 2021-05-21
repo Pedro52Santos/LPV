@@ -1,6 +1,7 @@
-﻿namespace ProjetoCarros.Formularios
+﻿
+namespace ProjetoCarros.Formularios
 {
-    partial class FormListarGeral
+    partial class FormCincoAnos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,47 +30,36 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gridGeral = new System.Windows.Forms.DataGridView();
+            this.gridVeiculos = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Idade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.alorAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Situacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.gridGeral)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridVeiculos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // gridVeiculos
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label1.Location = new System.Drawing.Point(189, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(376, 35);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "Lista de veículos geral";
-            // 
-            // gridGeral
-            // 
-            this.gridGeral.BackgroundColor = System.Drawing.Color.DimGray;
-            this.gridGeral.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridGeral.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gridVeiculos.BackgroundColor = System.Drawing.Color.DimGray;
+            this.gridVeiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridVeiculos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
             this.Modelo,
             this.Placa,
             this.Idade,
             this.alorAtual,
             this.Situacao});
-            this.gridGeral.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.gridGeral.Location = new System.Drawing.Point(53, 64);
-            this.gridGeral.Margin = new System.Windows.Forms.Padding(0);
-            this.gridGeral.Name = "gridGeral";
-            this.gridGeral.Size = new System.Drawing.Size(687, 313);
-            this.gridGeral.TabIndex = 19;
+            this.gridVeiculos.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.gridVeiculos.Location = new System.Drawing.Point(56, 67);
+            this.gridVeiculos.Margin = new System.Windows.Forms.Padding(0);
+            this.gridVeiculos.Name = "gridVeiculos";
+            this.gridVeiculos.Size = new System.Drawing.Size(687, 332);
+            this.gridVeiculos.TabIndex = 21;
             // 
             // Id
             // 
@@ -111,17 +101,28 @@
             this.Situacao.HeaderText = "Situação";
             this.Situacao.Name = "Situacao";
             // 
-            // FormListarGeral
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
+            this.label1.Location = new System.Drawing.Point(76, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(653, 35);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Lista de veículos de cinco anos ou mais";
+            // 
+            // FormCincoAnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.gridGeral);
+            this.Controls.Add(this.gridVeiculos);
             this.Controls.Add(this.label1);
-            this.Name = "FormListarGeral";
-            this.Text = "FormListarGeral";
-            ((System.ComponentModel.ISupportInitialize)(this.gridGeral)).EndInit();
+            this.Name = "FormCincoAnos";
+            this.Text = "FormCincoAnos";
+            ((System.ComponentModel.ISupportInitialize)(this.gridVeiculos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -130,14 +131,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView gridGeral;
+        private System.Windows.Forms.DataGridView gridVeiculos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Placa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Idade;
         private System.Windows.Forms.DataGridViewTextBoxColumn alorAtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn Situacao;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

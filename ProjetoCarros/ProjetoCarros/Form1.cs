@@ -46,5 +46,10 @@ namespace ProjetoCarros
             FormConsultar fmc = new FormConsultar();
             fmc.ShowDialog();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
