@@ -18,46 +18,66 @@ namespace ProjetoCarros.Context
         public DbSet<Carro> ListaSimplesVeiculo { get; set; }
 
         //consultas personalizadas
-        public List<ConsultaVeiculo> ListaPessonalizadaVeiculo()
+        public List<ConsultaVeiculo> ListaGeral()
         {
-            string sql = "SELECT" +
-                " id," +
+            string sql = "SELECT Id," +
                 " modelo," +
                 " placa," +
                 " TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER AS idade," +
-                " (valorzero*(1 - 0.5 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)::NUMERIC(10,2) AS valoratual," +
-                "CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER) < 3 THEN 'SEMINOVO' " +
-                "ELSE 'USADO' " +
-                "END :: VARCHAR(15) AS situacao FROM CARRO";
+                " valorzero," +
+                " (valorzero * (1 - 0.05 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER))::NUMERIC(10,2) AS valoratual," +
+                " CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)< 3 THEN 'seminovo'" +
+                " ELSE 'usado'" +
+                " END :: VARCHAR(15) AS situacao " +
+                "FROM carro ";
 
             return Database.SqlQuery<ConsultaVeiculo>(sql).ToList();
         }
 
         public List<ConsultaVeiculo> ListaSeminovos()
         {
-            string sql = ""; /* "SELECT" +
-                " id," +
+            string sql = "SELECT Id," +
                 " modelo," +
                 " placa," +
                 " TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER AS idade," +
-                " (valorzero*(1 - 0.5 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)::NUMERIC(10,2) AS valoratual," +
-                "CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER) < 3 THEN 'SEMINOVO' " +
-                "ELSE 'USADO' " +
-                "END :: VARCHAR(15) AS situacao FROM CARRO"; */
-
-            // para listar os seminovos bastar dar select de veiculos que foram fabricados a menos de 3 anos
+                " valorzero," +
+                " (valorzero * (1 - 0.05 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER))::NUMERIC(10,2) AS valoratual," +
+                " CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)< 3 THEN 'seminovo'" +
+                " ELSE 'usado'" +
+                " END :: VARCHAR(15) AS situacao " +
+                "FROM carro " +
+                "WHERE (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)< 3 ";
             return Database.SqlQuery<ConsultaVeiculo>(sql).ToList();
         }
 
         public List<ConsultaVeiculo> ListaUsados()
         {
-            string sql = "";
-
+           string sql = "SELECT Id," +
+               " modelo," +
+               " placa," +
+               " TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER AS idade," +
+               " valorzero," +
+               " (valorzero * (1 - 0.05 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER))::NUMERIC(10,2) AS valoratual," +
+               " CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)< 3 THEN 'seminovo'" +
+               " ELSE 'usado'" +
+               " END :: VARCHAR(15) AS situacao " +
+               "FROM carro " +
+               "WHERE (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)> 3 ";
             return Database.SqlQuery<ConsultaVeiculo>(sql).ToList();
         }
         public List<ConsultaVeiculo> ListaMaisDeCincoAnos()
         {
-            string sql = "";
+            string sql = "SELECT Id," +
+               " modelo," +
+               " placa," +
+               " TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER AS idade," +
+               " valorzero," +
+               " (valorzero * (1 - 0.05 * TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER))::NUMERIC(10,2) AS valoratual," +
+               " CASE WHEN (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)< 3 THEN 'seminovo'" +
+               " ELSE 'usado'" +
+               " END :: VARCHAR(15) AS situacao " +
+               "FROM carro " +
+               "WHERE (TO_CHAR(AGE(CURRENT_DATE,datafabr),'YY')::INTEGER)> 5 ";
 
             return Database.SqlQuery<ConsultaVeiculo>(sql).ToList();
         }

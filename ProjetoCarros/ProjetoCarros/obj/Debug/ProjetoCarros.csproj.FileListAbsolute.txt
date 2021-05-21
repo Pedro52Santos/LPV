@@ -56,3 +56,6 @@ C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Deb
 C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Debug\System.ValueTuple.xml
 C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\bin\Debug\Utilitarias.pdb
 C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.csproj.CopyComplete
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormCincoAnos.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormSeminovos.resources
+C:\Users\pedro\OneDrive\Documents\GitHub\LPV\ProjetoCarros\ProjetoCarros\obj\Debug\ProjetoCarros.Formularios.FormUsados.resources

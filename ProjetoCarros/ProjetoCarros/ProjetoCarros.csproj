@@ -220,6 +220,18 @@
   <ItemGroup>
     <None Include="Resources\cross.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carronovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carromuitonovo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrovelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carromuitovelho.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

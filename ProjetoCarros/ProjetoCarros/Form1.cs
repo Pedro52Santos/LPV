@@ -51,5 +51,23 @@ namespace ProjetoCarros
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormSeminovos form = new FormSeminovos();
+            form.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormUsados form = new FormUsados();
+            form.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FormCincoAnos form = new FormCincoAnos();
+            form.ShowDialog();
+        }
     }
 }

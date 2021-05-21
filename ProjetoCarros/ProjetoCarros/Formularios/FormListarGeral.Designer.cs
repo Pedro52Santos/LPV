@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.gridGeral = new System.Windows.Forms.DataGridView();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Idade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.alorAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Situacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gridGeral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -102,6 +102,7 @@
             // alorAtual
             // 
             this.alorAtual.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.alorAtual.DataPropertyName = "valoratual";
             this.alorAtual.HeaderText = "Valor pós Depreciação";
             this.alorAtual.Name = "alorAtual";
             // 
@@ -121,6 +122,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormListarGeral";
             this.Text = "FormListarGeral";
+            this.Load += new System.EventHandler(this.FormListarGeral_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridGeral)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
@@ -132,12 +134,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView gridGeral;
+        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Placa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Idade;
         private System.Windows.Forms.DataGridViewTextBoxColumn alorAtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn Situacao;
-        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

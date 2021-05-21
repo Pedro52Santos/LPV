@@ -18,7 +18,7 @@ namespace ProjetoCarros.Formularios
         public FormConsultar()
         {
             InitializeComponent();
-            bindingSource1.DataSource = ctx.ListaPessonalizadaVeiculo();
+            bindingSource1.DataSource = ctx.ListaGeral();
             cbPesquisa.DataSource = bindingSource1;
             cbPesquisa.DisplayMember = "placa";
             cbPesquisa.SelectedIndex = -1;
@@ -28,13 +28,12 @@ namespace ProjetoCarros.Formularios
         private void button1_Click(object sender, EventArgs e)
         {
             ConsultaVeiculo veiculo = new ConsultaVeiculo();
-            veiculo = ctx.ListaPessonalizadaVeiculo().ElementAt(bindingSource1.Position);
+            veiculo = ctx.ListaGeral().ElementAt(bindingSource1.Position);
             edPlaca.Text = veiculo.Placa;
             edModelo.Text = veiculo.Modelo;
             edSituacao.Text = veiculo.Situacao;
             edIdade.Text = Convert.ToString(veiculo.Idade);
             edValor.Text = Convert.ToString(veiculo.ValorAtual);
-            btLimpar_Click(sender, e);
          }
 
         private void btLimpar_Click(object sender, EventArgs e)
