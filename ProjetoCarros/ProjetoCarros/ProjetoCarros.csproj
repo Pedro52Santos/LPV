@@ -95,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\ConsultaVeiculo.cs" />
     <Compile Include="Context\ConexaoContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

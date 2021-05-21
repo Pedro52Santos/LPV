@@ -18,7 +18,7 @@ namespace ProjetoCarros.Formularios
             InitializeComponent();
             ConexaoContext ctx = new ConexaoContext();
             bindingSource1.DataSource = ctx.ListaPessonalizadaVeiculo();
-            gridGeral.DataSource = bindingSource1.DataSource;
+            gridGeral.DataSource = bindingSource1.DataSource;   
         }
     }
 }

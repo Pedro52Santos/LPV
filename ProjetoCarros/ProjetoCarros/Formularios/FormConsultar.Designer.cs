@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.edPlaca = new System.Windows.Forms.TextBox();
             this.edModelo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,6 +44,8 @@
             this.cbPesquisa = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btPesquisa = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // edPlaca
@@ -177,6 +180,7 @@
             this.btLimpar.Text = "Limpar";
             this.btLimpar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btLimpar.UseVisualStyleBackColor = false;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
             // 
             // cbPesquisa
             // 
@@ -243,6 +247,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormConsultar";
             this.Text = "FormConsultar";
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,5 +270,6 @@
         private System.Windows.Forms.ComboBox cbPesquisa;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btPesquisa;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
