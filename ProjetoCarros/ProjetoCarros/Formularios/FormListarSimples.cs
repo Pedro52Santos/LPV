@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using ProjetoCarros.Context;
 namespace ProjetoCarros.Formularios
 {
     public partial class FormListarSimples : Form
@@ -15,6 +15,9 @@ namespace ProjetoCarros.Formularios
         public FormListarSimples()
         {
             InitializeComponent();
+            ConexaoContext ctx = new ConexaoContext();
+            bindSListaVeiculo.DataSource = ctx.ListaSimplesVeiculo.ToList();
+            gridVeiculos.DataSource = bindSListaVeiculo;
         }
     }
 }

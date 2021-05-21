@@ -50,9 +50,10 @@
             this.btCancelar.FlatAppearance.BorderSize = 0;
             this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCancelar.Location = new System.Drawing.Point(504, 335);
+            this.btCancelar.Location = new System.Drawing.Point(672, 412);
+            this.btCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(132, 60);
+            this.btCancelar.Size = new System.Drawing.Size(176, 74);
             this.btCancelar.TabIndex = 2;
             this.btCancelar.Text = "Cancelar";
             this.btCancelar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -68,20 +69,23 @@
             this.btSalvar.FlatAppearance.BorderSize = 0;
             this.btSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalvar.Location = new System.Drawing.Point(166, 335);
+            this.btSalvar.Location = new System.Drawing.Point(221, 412);
+            this.btSalvar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btSalvar.Name = "btSalvar";
-            this.btSalvar.Size = new System.Drawing.Size(132, 60);
+            this.btSalvar.Size = new System.Drawing.Size(176, 74);
             this.btSalvar.TabIndex = 1;
             this.btSalvar.Text = "Salvar";
             this.btSalvar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSalvar.UseVisualStyleBackColor = false;
+            this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label1.Location = new System.Drawing.Point(261, 9);
+            this.label1.Location = new System.Drawing.Point(348, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 35);
             this.label1.TabIndex = 6;
@@ -92,7 +96,8 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label2.Location = new System.Drawing.Point(113, 104);
+            this.label2.Location = new System.Drawing.Point(151, 128);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 18);
             this.label2.TabIndex = 7;
@@ -104,7 +109,8 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label3.Location = new System.Drawing.Point(445, 104);
+            this.label3.Location = new System.Drawing.Point(593, 128);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 18);
             this.label3.TabIndex = 8;
@@ -115,7 +121,8 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label4.Location = new System.Drawing.Point(113, 222);
+            this.label4.Location = new System.Drawing.Point(151, 273);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 18);
             this.label4.TabIndex = 9;
@@ -126,7 +133,8 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label5.Location = new System.Drawing.Point(445, 222);
+            this.label5.Location = new System.Drawing.Point(593, 273);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(170, 18);
             this.label5.TabIndex = 10;
@@ -137,9 +145,10 @@
             this.edModelo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.edModelo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edModelo.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.edModelo.Location = new System.Drawing.Point(116, 125);
+            this.edModelo.Location = new System.Drawing.Point(155, 154);
+            this.edModelo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.edModelo.Name = "edModelo";
-            this.edModelo.Size = new System.Drawing.Size(246, 27);
+            this.edModelo.Size = new System.Drawing.Size(327, 27);
             this.edModelo.TabIndex = 11;
             this.edModelo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -148,9 +157,10 @@
             this.edPlaca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.edPlaca.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edPlaca.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.edPlaca.Location = new System.Drawing.Point(448, 125);
+            this.edPlaca.Location = new System.Drawing.Point(597, 154);
+            this.edPlaca.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.edPlaca.Name = "edPlaca";
-            this.edPlaca.Size = new System.Drawing.Size(246, 27);
+            this.edPlaca.Size = new System.Drawing.Size(327, 27);
             this.edPlaca.TabIndex = 12;
             this.edPlaca.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -159,9 +169,10 @@
             this.edValorN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.edValorN.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.edValorN.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.edValorN.Location = new System.Drawing.Point(116, 243);
+            this.edValorN.Location = new System.Drawing.Point(155, 299);
+            this.edValorN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.edValorN.Name = "edValorN";
-            this.edValorN.Size = new System.Drawing.Size(246, 27);
+            this.edValorN.Size = new System.Drawing.Size(327, 27);
             this.edValorN.TabIndex = 13;
             // 
             // dtDataFab
@@ -170,17 +181,18 @@
             this.dtDataFab.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
             this.dtDataFab.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.dtDataFab.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtDataFab.Location = new System.Drawing.Point(448, 244);
+            this.dtDataFab.Location = new System.Drawing.Point(597, 300);
+            this.dtDataFab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtDataFab.Name = "dtDataFab";
-            this.dtDataFab.Size = new System.Drawing.Size(246, 20);
+            this.dtDataFab.Size = new System.Drawing.Size(327, 22);
             this.dtDataFab.TabIndex = 14;
             // 
             // FormCadastrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dtDataFab);
             this.Controls.Add(this.edValorN);
             this.Controls.Add(this.edPlaca);
@@ -192,6 +204,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.btSalvar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormCadastrar";
             this.Text = "Registro de Veículos";
             this.Load += new System.EventHandler(this.FormCadastrar_Load);
