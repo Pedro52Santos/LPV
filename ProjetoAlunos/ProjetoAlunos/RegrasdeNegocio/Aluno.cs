@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjetoAlunos.RegrasdeNegocio
 {
-    [Table ("carro", Schema ="public")]
+    [Table ("aluno", Schema ="public")]
     class Aluno
     {
         [Column("id")]

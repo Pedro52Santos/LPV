@@ -55,10 +55,10 @@ namespace ProjetoCarros.Formularios
             this.alorAtual,
             this.Situacao});
             this.gridGeral.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.gridGeral.Location = new System.Drawing.Point(55, 60);
+            this.gridGeral.Location = new System.Drawing.Point(73, 74);
             this.gridGeral.Margin = new System.Windows.Forms.Padding(0);
             this.gridGeral.Name = "gridGeral";
-            this.gridGeral.Size = new System.Drawing.Size(687, 350);
+            this.gridGeral.Size = new System.Drawing.Size(916, 431);
             this.gridGeral.TabIndex = 21;
             // 
             // label1
@@ -66,7 +66,8 @@ namespace ProjetoCarros.Formularios
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label1.Location = new System.Drawing.Point(191, 5);
+            this.label1.Location = new System.Drawing.Point(255, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(408, 35);
             this.label1.TabIndex = 20;
@@ -103,6 +104,7 @@ namespace ProjetoCarros.Formularios
             // alorAtual
             // 
             this.alorAtual.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.alorAtual.DataPropertyName = "valoratual";
             this.alorAtual.HeaderText = "Valor pós Depreciação";
             this.alorAtual.Name = "alorAtual";
             // 
@@ -115,12 +117,13 @@ namespace ProjetoCarros.Formularios
             // 
             // FormUsados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.gridGeral);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormUsados";
             this.Text = "FormUsados";
             ((System.ComponentModel.ISupportInitialize)(this.gridGeral)).EndInit();

@@ -16,6 +16,7 @@ namespace ProjetoAlunos.Formularios
 {
     public partial class FormCadastrar : Form
     {
+       
         public FormCadastrar()
         {
             InitializeComponent();
@@ -33,20 +34,20 @@ namespace ProjetoAlunos.Formularios
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //https://www.freepik.com/vectors/school School vector created by pch.vector - www.freepik.com
         }
 
         private void btCadastrar_Click(object sender, EventArgs e)
         {
-            Aluno A = new Aluno();
-            A.Nome = edNome.Text;
-            A.Nota1Bim = Convert.ToDouble(edNota1.Text);
-            A.Nota2Bim = Convert.ToDouble(edNota2.Text);
-            A.DataNasc = dateTimePicker1.Value;
+            Aluno objAluno = new Aluno();
+            objAluno.Nome = edNome.Text;
+            objAluno.Nota1Bim = Convert.ToDouble(edNota1.Text);
+            objAluno.Nota2Bim = Convert.ToDouble(edNota2.Text);
+            objAluno.DataNasc = dateTimePicker1.Value;
 
-            ConexaoContext ctx = new ConexaoContext();
-            ctx.ListaSimples.Add(A);
-            ctx.SaveChanges();
+
+            ConexaoContext conexao = new ConexaoContext();
+            conexao.ListaSimples.Add(objAluno);
+            conexao.SaveChanges();
             Mensagens mensagens = new Mensagens("Aviso");
             mensagens.MsgInfirmacao("Salvo com sucesso!!");
             btLimpar_Click(sender, e);

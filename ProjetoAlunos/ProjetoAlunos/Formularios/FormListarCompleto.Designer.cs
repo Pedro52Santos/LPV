@@ -31,14 +31,14 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.GridAlunos = new System.Windows.Forms.DataGridView();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Idade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nota1Bim = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nota2Bim = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota1b = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota2b = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Media = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Situacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.GridAlunos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +48,8 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(213, 26);
+            this.label1.Location = new System.Drawing.Point(284, 32);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(365, 33);
             this.label1.TabIndex = 4;
@@ -61,21 +62,22 @@
             this.Id,
             this.Nome,
             this.Idade,
-            this.Nota1Bim,
-            this.Nota2Bim,
+            this.nota1b,
+            this.nota2b,
             this.Media,
             this.Situacao});
-            this.GridAlunos.Location = new System.Drawing.Point(28, 73);
+            this.GridAlunos.Location = new System.Drawing.Point(37, 90);
+            this.GridAlunos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GridAlunos.Name = "GridAlunos";
-            this.GridAlunos.Size = new System.Drawing.Size(751, 331);
+            this.GridAlunos.Size = new System.Drawing.Size(1001, 407);
             this.GridAlunos.TabIndex = 5;
             // 
             // Id
             // 
-            this.Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Id.DataPropertyName = "id";
             this.Id.HeaderText = "Cadastro";
             this.Id.Name = "Id";
+            this.Id.Width = 80;
             // 
             // Nome
             // 
@@ -90,23 +92,24 @@
             this.Idade.HeaderText = "Idade";
             this.Idade.Name = "Idade";
             // 
-            // Nota1Bim
+            // nota1b
             // 
-            this.Nota1Bim.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Nota1Bim.DataPropertyName = "nota1b";
-            this.Nota1Bim.HeaderText = "Nota 1° Bimestre";
-            this.Nota1Bim.Name = "Nota1Bim";
+            this.nota1b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nota1b.DataPropertyName = "nota1b";
+            this.nota1b.HeaderText = "Nota 1° Bimestre";
+            this.nota1b.Name = "nota1b";
             // 
-            // Nota2Bim
+            // nota2b
             // 
-            this.Nota2Bim.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Nota2Bim.DataPropertyName = "nota2b";
-            this.Nota2Bim.HeaderText = "Nota 2° Bimestre";
-            this.Nota2Bim.Name = "Nota2Bim";
+            this.nota2b.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nota2b.DataPropertyName = "nota2b";
+            this.nota2b.HeaderText = "Nota 2° Bimestre";
+            this.nota2b.Name = "nota2b";
             // 
             // Media
             // 
             this.Media.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Media.DataPropertyName = "media";
             this.Media.HeaderText = "Média";
             this.Media.Name = "Media";
             // 
@@ -119,12 +122,13 @@
             // 
             // FormListarCompleto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.GridAlunos);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormListarCompleto";
             this.Text = "FormListarCompleto";
             ((System.ComponentModel.ISupportInitialize)(this.GridAlunos)).EndInit();
@@ -137,13 +141,13 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView GridAlunos;
+        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Idade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nota1Bim;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nota2Bim;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota1b;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota2b;
         private System.Windows.Forms.DataGridViewTextBoxColumn Media;
         private System.Windows.Forms.DataGridViewTextBoxColumn Situacao;
-        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

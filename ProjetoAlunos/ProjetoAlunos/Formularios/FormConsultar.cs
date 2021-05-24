@@ -29,8 +29,8 @@ namespace ProjetoAlunos.Formularios
         {
             ConsultaAluno consultaAluno = new ConsultaAluno();
             consultaAluno = ctx.ListaCompleta().ElementAt(bindingSource1.Position);
-            edNota1.Text = consultaAluno.Nota1Bim.ToString();
-            EdNota2.Text = consultaAluno.Nota2Bim.ToString();
+            edNota1.Text = consultaAluno.Nota1b.ToString();
+            EdNota2.Text = consultaAluno.Nota2b.ToString();
             edMedia.Text = consultaAluno.Media.ToString();
             edIdade.Text = consultaAluno.Idade.ToString();
             edSituacao.Text = consultaAluno.Situacao;
