@@ -73,6 +73,26 @@ namespace ProjetoAlunos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alunos {
+            get {
+                object obj = ResourceManager.GetObject("alunos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Aprovados {
+            get {
+                object obj = ResourceManager.GetObject("Aprovados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cross {
             get {
                 object obj = ResourceManager.GetObject("cross", resourceCulture);
@@ -166,6 +186,36 @@ namespace ProjetoAlunos.Properties {
         internal static System.Drawing.Bitmap note__2_ {
             get {
                 object obj = ResourceManager.GetObject("note (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pesuisar_aluno {
+            get {
+                object obj = ResourceManager.GetObject("pesuisar aluno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reprovados {
+            get {
+                object obj = ResourceManager.GetObject("reprovados", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap undraw_winners_ao2o {
+            get {
+                object obj = ResourceManager.GetObject("undraw_winners_ao2o", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

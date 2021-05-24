@@ -10,6 +10,7 @@ namespace ProjetoAlunos.Consultas
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        public int Idade { get; set; }
         public double Nota1Bim { get; set; }
         public double Nota2Bim { get; set; }
         public double Media { get; set; }

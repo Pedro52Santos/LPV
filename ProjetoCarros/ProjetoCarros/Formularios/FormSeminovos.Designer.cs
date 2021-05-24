@@ -31,14 +31,14 @@ namespace ProjetoCarros.Formularios
         {
             this.components = new System.ComponentModel.Container();
             this.gridVeiculos = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Modelo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Placa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Idade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.alorAtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Situacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gridVeiculos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,17 @@ namespace ProjetoCarros.Formularios
             this.gridVeiculos.Name = "gridVeiculos";
             this.gridVeiculos.Size = new System.Drawing.Size(687, 309);
             this.gridVeiculos.TabIndex = 21;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
+            this.label1.Location = new System.Drawing.Point(147, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(472, 35);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Lista de veículos Seminovos";
             // 
             // Id
             // 
@@ -98,19 +109,9 @@ namespace ProjetoCarros.Formularios
             // Situacao
             // 
             this.Situacao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Situacao.DataPropertyName = "situacao";
             this.Situacao.HeaderText = "Situação";
             this.Situacao.Name = "Situacao";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label1.Location = new System.Drawing.Point(147, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(472, 35);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Lista de veículos Seminovos";
             // 
             // FormSeminovos
             // 
@@ -132,13 +133,13 @@ namespace ProjetoCarros.Formularios
         #endregion
 
         private System.Windows.Forms.DataGridView gridVeiculos;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Placa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Idade;
         private System.Windows.Forms.DataGridViewTextBoxColumn alorAtual;
         private System.Windows.Forms.DataGridViewTextBoxColumn Situacao;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

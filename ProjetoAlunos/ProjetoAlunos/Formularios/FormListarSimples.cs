@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoAlunos.Context;
+
 
 namespace ProjetoAlunos.Formularios
 {
@@ -15,9 +17,17 @@ namespace ProjetoAlunos.Formularios
         public FormListarSimples()
         {
             InitializeComponent();
+            ConexaoContext ctx = new ConexaoContext();
+            bindingSource1.DataSource = ctx.ListaSimples.ToList();
+            GridAlunos.DataSource = bindingSource1;
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GridAlunos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

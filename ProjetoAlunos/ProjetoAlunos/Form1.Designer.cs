@@ -64,6 +64,7 @@
             this.btAcimaDe.Text = "Acima de 80 pontos";
             this.btAcimaDe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btAcimaDe.UseVisualStyleBackColor = false;
+            this.btAcimaDe.Click += new System.EventHandler(this.btAcimaDe_Click);
             // 
             // btReprovados
             // 
@@ -81,6 +82,7 @@
             this.btReprovados.Text = "Lista de Reprovados";
             this.btReprovados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btReprovados.UseVisualStyleBackColor = false;
+            this.btReprovados.Click += new System.EventHandler(this.btReprovados_Click);
             // 
             // btAprovados
             // 
@@ -98,6 +100,7 @@
             this.btAprovados.Text = "Lista de Aprovados";
             this.btAprovados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btAprovados.UseVisualStyleBackColor = false;
+            this.btAprovados.Click += new System.EventHandler(this.btAprovados_Click);
             // 
             // btConsultar
             // 
@@ -114,6 +117,7 @@
             this.btConsultar.Text = "Consultar Alunos";
             this.btConsultar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btConsultar.UseVisualStyleBackColor = false;
+            this.btConsultar.Click += new System.EventHandler(this.btConsultar_Click);
             // 
             // btListarCompleto
             // 
@@ -130,6 +134,7 @@
             this.btListarCompleto.Text = "Listar Alunos Completo";
             this.btListarCompleto.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btListarCompleto.UseVisualStyleBackColor = false;
+            this.btListarCompleto.Click += new System.EventHandler(this.btListarCompleto_Click);
             // 
             // btListarSimples
             // 
@@ -146,6 +151,7 @@
             this.btListarSimples.Text = "Listar Alunos Simples";
             this.btListarSimples.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btListarSimples.UseVisualStyleBackColor = false;
+            this.btListarSimples.Click += new System.EventHandler(this.btListarSimples_Click);
             // 
             // btCadastrar
             // 
@@ -163,6 +169,7 @@
             this.btCadastrar.Text = "Cadastrar Aluno";
             this.btCadastrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btCadastrar.UseVisualStyleBackColor = false;
+            this.btCadastrar.Click += new System.EventHandler(this.btCadastrar_Click);
             // 
             // Form1
             // 

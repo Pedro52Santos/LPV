@@ -109,6 +109,7 @@
             // Situacao
             // 
             this.Situacao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Situacao.DataPropertyName = "situacao";
             this.Situacao.HeaderText = "Situação";
             this.Situacao.Name = "Situacao";
             // 

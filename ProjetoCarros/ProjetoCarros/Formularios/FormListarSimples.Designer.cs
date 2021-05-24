@@ -46,8 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(68)))), ((int)(((byte)(228)))));
-            this.label1.Location = new System.Drawing.Point(259, 32);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(194, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(418, 35);
             this.label1.TabIndex = 17;
@@ -64,10 +63,10 @@
             this.DataFabr,
             this.ValorZero});
             this.gridVeiculos.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.gridVeiculos.Location = new System.Drawing.Point(73, 95);
+            this.gridVeiculos.Location = new System.Drawing.Point(55, 77);
             this.gridVeiculos.Margin = new System.Windows.Forms.Padding(0);
             this.gridVeiculos.Name = "gridVeiculos";
-            this.gridVeiculos.Size = new System.Drawing.Size(916, 185);
+            this.gridVeiculos.Size = new System.Drawing.Size(687, 316);
             this.gridVeiculos.TabIndex = 18;
             // 
             // Id
@@ -107,13 +106,12 @@
             // 
             // FormListarSimples
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gridVeiculos);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormListarSimples";
             this.Text = "FormListarSimples";
             ((System.ComponentModel.ISupportInitialize)(this.gridVeiculos)).EndInit();

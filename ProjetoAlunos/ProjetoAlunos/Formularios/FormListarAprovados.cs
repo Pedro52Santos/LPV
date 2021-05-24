@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoAlunos.Context;
+using ProjetoAlunos.Consultas;
 
 namespace ProjetoAlunos.Formularios
 {
@@ -15,6 +17,9 @@ namespace ProjetoAlunos.Formularios
         public FormListarAprovados()
         {
             InitializeComponent();
+            ConexaoContext ctx = new ConexaoContext();
+            bindingSource1.DataSource = ctx.ListaAprovados();
+            GridAlunos.DataSource = bindingSource1.DataSource;
         }
     }
 }

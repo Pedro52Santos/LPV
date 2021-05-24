@@ -17,7 +17,25 @@ namespace ProjetoAlunos.Context
         }
         public DbSet<Aluno> ListaSimples { get; set; }
 
+
+            
+
         public List<ConsultaAluno> ListaCompleta()
+        {
+            string sql = "";
+            return Database.SqlQuery<ConsultaAluno>(sql).ToList();
+        }
+        public List<ConsultaAluno> ListaAprovados()
+        {
+            string sql = "";
+            return Database.SqlQuery<ConsultaAluno>(sql).ToList();
+        }
+        public List<ConsultaAluno> ListaReprovados()
+        {
+            string sql = "";
+            return Database.SqlQuery<ConsultaAluno>(sql).ToList();
+        }
+        public List<ConsultaAluno> ListaAcimade()
         {
             string sql = "";
             return Database.SqlQuery<ConsultaAluno>(sql).ToList();
