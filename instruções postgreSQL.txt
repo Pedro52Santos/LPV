@@ -1,0 +1,12 @@
+- Criar um banco de dados com o nome de BDPessoas
+- Criar tabela:
+
+CREATE TABLE pessoa (
+id SERIAL PRIMARY KEY,
+nome VARCHAR(50),
+cpf VARCHAR(14),
+datanasc TIMESTAMP,
+tel VARCHAR(15)
+)
+
+parei aos 11 minutos da aula 18	
